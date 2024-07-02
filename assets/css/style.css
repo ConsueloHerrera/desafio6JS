@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 70%;
+    border: black solid;
+    background-color: lightgrey;
+    padding: 1em
+}
+
+.container-title {
+    border-bottom: 2px solid gray; 
+    padding-bottom: 5px; 
+}
+
+.task-aggregator {
+    display: flex;
+    margin: 1em 0em 1em 0em;
+}
+
+.btn {
+    margin-left: 1em;
+}
+
+.counter-container {
+    display: flex;
+}
+
+.total-counter-container {
+    width: 35%;
+}
+
+.inline-text {
+    display: flex;
+    align-items: baseline;
+}
+
+.number {
+    margin-left: 0.5em;
+}
+
+.header-list {
+    display: flex;
+    padding-left: 32px;
+}
+
+.btn-eliminar {
+    color: red;
+}
+
+.id {
+width: 9em;
+}
+
+.tarea {
+    width: 300px;
+}
+
+.inputs-container {
+    display: flex;
+    align-items: flex-end;
+    width: 50px;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: flex;
+}
